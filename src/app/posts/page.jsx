@@ -15,6 +15,7 @@ export default async function page() {
     <div className="grid">
         {
             posts.map(post => (
+             
                 <PostCard post={ post } key={ post.key }/>
             ))
         }
